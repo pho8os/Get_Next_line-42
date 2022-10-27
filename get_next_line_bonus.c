@@ -6,7 +6,7 @@
 /*   By: absaid <absaid@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 14:21:22 by absaid            #+#    #+#             */
-/*   Updated: 2022/10/26 17:21:03 by absaid           ###   ########.fr       */
+/*   Updated: 2022/10/27 14:01:55 by absaid           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ char	*update_hold(char *hold)
 	return (s);
 }
 
-char	*get_next_line(int fd)
+char	*get_next_line_bonus(int fd)
 {
 	char		*line;
 	static char	*hold[10241];

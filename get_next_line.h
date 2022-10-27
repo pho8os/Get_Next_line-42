@@ -6,7 +6,7 @@
 /*   By: absaid <absaid@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 14:13:30 by absaid            #+#    #+#             */
-/*   Updated: 2022/10/26 17:30:23 by absaid           ###   ########.fr       */
+/*   Updated: 2022/10/27 14:01:46 by absaid           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,6 @@ size_t	ft_strlen(const char *s);
 char	*ft_strdup(const char *src);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strjoin(const char *s1, const char *s2);
-char	*get_next_line(int fd);
+char	*get_next_line_bonus(int fd);
 
 #endif
